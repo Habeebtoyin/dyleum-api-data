@@ -6,16 +6,17 @@ const asyncHandler = require("express-async-handler");
 const create_ico = asyncHandler(async (req, res) => {
   try {
     //console.log(req.body)
-    const new_starter_pack=await  new starter_pack_model({
-     pack_name:req.body.pack_name,
-     pack_items:req.body.pack_items,
-     price:req.body.price,
-     quantity:req.body.quantity,
-     images:req.body.images,
+    const new_ico=await  new ico_schema_model({
+     name:req.body.name,
+     contacts:req.body.contacts,
+     project_link:req.body.project_link,
+     project_info:req.body.project_info,
+     launch_date:req.body.launch_date,
+     name:req.body.name,
     })
-    new_starter_pack.save()
+    new_ico.save()
     res.json({
-      message:"New Starter Pack Created SuccessFully",
+      message:"New ICO Created SuccessFully",
     })
     
   } catch (error) {
@@ -30,8 +31,8 @@ const create_ico = asyncHandler(async (req, res) => {
   const get_all_ico = asyncHandler(async (req, res) => {
  
   try {
-     const all_starter_packs= await starter_pack_model.find();
-     res.json(all_starter_packs);
+     const allico= await ico_schema_model.find();
+     res.json(allico);
 
   } catch (error) {
     res.json({message:error})
@@ -39,16 +40,16 @@ const create_ico = asyncHandler(async (req, res) => {
 })
 const get_ico_id = asyncHandler(async (req, res) => {
     try {
-      const specific_starter_pack = await starter_pack_model.findOne({_id:req.params.id})
+      const find_specific_ico = await ico_schema_model.findOne({_id:req.params.id})
         //res.json(findSpecificAdmin);
-        if(!specific_starter_pack){
+        if(!find_specific_ico){
           return res.json(
             "Data does not Exst"
           )
         }
-        if(specific_starter_pack){
+        if(find_specific_ico){
           return res.json(
-            findSpecificProduct
+            find_specific_ico
           )}
 
     } catch (error) {
@@ -62,16 +63,17 @@ const get_ico_id = asyncHandler(async (req, res) => {
 
 const update_ico = asyncHandler(async (req, res) => {
     try {
-      const specific_product_to_update=await starter_pack_model.updateOne({
+      const specific_product_to_update=await ico_schema_model.updateOne({
         _id:req.params.id
       },
       {
          $set:{
-            pack_name:req.body.pack_name,
-            pack_items:req.body.pack_items,
-            price:req.body.price,
-            quantity:req.body.quantity,
-            images:req.body.images,
+          name:req.body.name,
+          contacts:req.body.contacts,
+          project_link:req.body.project_link,
+          project_info:req.body.project_info,
+          launch_date:req.body.launch_date,
+          name:req.body.name,
          }
       });
       res.json({
@@ -112,9 +114,9 @@ const delete_ico = asyncHandler(async (req, res) => {
 
 
 module.exports = {
-    create_new_starter_pack,
-    delete_starter_pack,
-    update_starter_pack,
-    get_starter_pack_id,
-    get_all_starter_packs
+  delete_ico,
+  update_ico,
+  get_ico_id,
+  get_all_ico,
+  create_ico
   };

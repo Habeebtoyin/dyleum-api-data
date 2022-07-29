@@ -3,11 +3,12 @@ var mongoose = require('mongoose');
 var app = express();
 const bodyparser=require('body-parser')
 app.use(bodyparser.json())
+const all_routers=require("./routes");
 
 app.get('/',(req,res)=>{
   res.send('welcome to succoin')
 })
-
+app.use("/api",all_routers);
 //qnea0donBwOJIvnN
 
 
