@@ -19,11 +19,11 @@ router.route("/ico/create").post(create_ico)
 
 router.route("/ico/get-all").get(get_all_ico)
 
-router.route("/ico/get-by-id:id").get(get_ico_id)
+router.route("/ico/get-by-id/:id").get(get_ico_id)
 
 router.route("/ico/update/:id").patch(update_ico)
 
-router.route("/ico/delete/:id").patch(delete_ico)
+router.route("/ico/delete/:id").delete(delete_ico)
 
 
 

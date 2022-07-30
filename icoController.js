@@ -12,7 +12,6 @@ const create_ico = asyncHandler(async (req, res) => {
      project_link:req.body.project_link,
      project_info:req.body.project_info,
      launch_date:req.body.launch_date,
-     name:req.body.name,
     })
     new_ico.save()
     res.json({
@@ -78,7 +77,7 @@ const update_ico = asyncHandler(async (req, res) => {
       });
       res.json({
         message:specific_product_to_update,
-        report:"Starter Pack Updated Succefully"
+        report:"ICO data Updated Succefully"
       }
         );
   
@@ -91,10 +90,10 @@ const update_ico = asyncHandler(async (req, res) => {
 
 const delete_ico = asyncHandler(async (req, res) => {
     try {
-      const starter_pack_delete= await starter_pack_model.findOneAndRemove({ _id:req.params.id});
+      const ico_to_delete= await ico_schema_model.findOneAndRemove({ _id:req.params.id});
       res.json(
       {
-            message:"Product has been deleted"
+            message:"ICO  has been deleted"
         }
       )
 
