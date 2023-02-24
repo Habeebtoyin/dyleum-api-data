@@ -1,30 +1,22 @@
 const express = require('express');
-const router=express.Router();
-const {
-    delete_ico,
-    update_ico,
-    get_ico_id,
-    get_all_ico,
-    create_ico
-}=require("./icoController");
-const {
-    admin_login, create_admin
-  }=require("./adminController");
+const router = express.Router();
+const poolsController = require("./poolsController")
 
-router.route('/admin/login').post(admin_login)
+// router.route('/admin/login').post(admin_login)
 
-router.route('/admin/create').post(create_admin)
+// router.route('/admin/create').post(create_admin)
 
-router.route("/ico/create").post(create_ico)
+router.route("/pools").get(poolsController.get_all_active_pools)
+router.route("/pools/:id").get(poolsController.get_pools_by_id)
 
-router.route("/ico/get-all").get(get_all_ico)
+// router.route("/ico/get-all").get(get_all_ico)
 
-router.route("/ico/get-by-id/:id").get(get_ico_id)
+// router.route("/ico/get-by-id/:id").get(get_ico_id)
 
-router.route("/ico/update/:id").patch(update_ico)
+// router.route("/ico/update/:id").patch(update_ico)
 
-router.route("/ico/delete/:id").delete(delete_ico)
+// router.route("/ico/delete/:id").delete(delete_ico)
 
 
 
-module.exports=router;
+module.exports = router;
