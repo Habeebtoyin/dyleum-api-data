@@ -1,4 +1,38 @@
 const ActivePools = [
+    {
+        id: 1,
+        tag: "active",
+        logo: "Logo",
+        tags: ["23/11/2023"],
+        projectTitle: "Project 3",
+        projectDescription:
+            "The Blue Norva Project",
+        totalRate: "$100234.45",
+        maxAllocation: "$2500",
+        access: "Public",
+        totalRaised: "100234.45 DAI",
+        chain: 4002,
+        status: "Filled",
+        dateOfCompletion: "23rd Oct, 2022",
+        currentBalance: 87079007.22,
+        targetBalance: 87083333.33,
+        SLMAmount: "87079007.22/87083333.33 DAI",
+        percentage: "100.00%",
+        tokenDistribution: "24th Dec, 2022 (UTC + 1:00)",
+        tokenPrice: "1 BUSD = 166.66 SLM",
+        tokenName: "Blue Norva",
+        tokenSymbol: "BLU",
+        tokenDecimal: "18",
+        tokenAddress: "0xa50B23cDfB2eC7c590e84f403256f67cE6dffB84",
+        tokenTotalSupply: "1,000,000,000",
+        aboutProject:
+            "The Blue Norva Project",
+        projectBenefits: [
+            "1) Showcase your skills and earn income in the form of MNZ Tokens by competing with other holders in different real world physical sports, games and activities. Menzy uses its AI based computer vision software that acts as a referee to assess your performance.",
+            "2) Ensure a healthy living by targeting your daily step count goals on the Menzy application and getting rewarded with MNZ tokens and unique digital assets for maintaining a healthy lifestyle.MENZY ECOSYSTEM",
+        ],
+        projectName: "MENZY ECOSYSTEM",
+    },
 
 ];
 
