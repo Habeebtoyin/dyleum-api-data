@@ -94,7 +94,7 @@ const ActivePools = [
             "4) 30% Platform incentives : 5% at TGE followed by linear vesting for 5 years ",
             "5) 1% Retroactive Airdrop . User onboarding incentive : 100% distribution at TGE."
         ],
-        projectName: "Blue Norva",
+        projectName: "Astrava",
     },
 
 ];
