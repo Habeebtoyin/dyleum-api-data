@@ -2,7 +2,7 @@ const ActivePools = [
     {
         id: 1,
         tag: "completed",
-        logo: "Logo",
+        logo: "https://res.cloudinary.com/daniel23/image/upload/v1689876698/Blue-norva-logo_rzwgvv.webp",
         tags: ["18/05/2023"],
         projectTitle: "Project 1",
         projectDescription:
@@ -49,7 +49,7 @@ const ActivePools = [
     {
         id: 2,
         tag: "active",
-        logo: "Logo",
+        logo: "https://res.cloudinary.com/daniel23/image/upload/v1689876015/Astrava_svg_1_xwtmlp.svg",
         tags: ["18/05/2023"],
         projectTitle: "Project 2",
         projectDescription:
@@ -81,7 +81,7 @@ const ActivePools = [
         PresaleStart: "2023-07-16 12:00",
         PresaleEnd: "2023-07-18 12:00",
         Presale: "20,000,000 AST",
-        Website: "http://www.astrava.xyz/",
+        Website: "www.astrava.xyz/",
         Whitepaper: "https://docs.astrava.xyz/",
         Twitter: "https://twitter.com/astrava_xyz",
         Discord: " https://discord.gg/kE9yvnHtTP",
