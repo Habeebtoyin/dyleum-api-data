@@ -25,7 +25,7 @@ const ActivePools = [
         tokenDecimal: "18",
         tokenAddress: "0xa50B23cDfB2eC7c590e84f403256f67cE6dffB84",
         tokenTotalSupply: "1,000,000,000",
-        contract: "0xBdFeF93dB6561284FbD2E32b5e2D596FB1037Db8",
+        contract: "0x3223039CeCB55Cd6c484b9275EA19bF2C5d827Ae",
         aboutProject:
             "The Blue Norva Project",
         WhitelistPrice: "$0.001",
