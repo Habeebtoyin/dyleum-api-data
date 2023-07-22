@@ -73,7 +73,7 @@ const ActivePools = [
         tokenDecimal: "18",
         tokenAddress: "0x5c739e44b9066e44830a1B0942Fe322300A620c8",
         tokenTotalSupply: "100,000,000",
-        contract: "0x3223039CeCB55Cd6c484b9275EA19bF2C5d827Ae",
+        contract: "0xbf9d5b52650D2c195355F9e022F3A13b1e2ee315",
         aboutProject:
             "The Astrava  Project",
         WhitelistPrice: "$0.001",
