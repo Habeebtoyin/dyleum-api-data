@@ -90,11 +90,7 @@ const ActivePools = [
         minimumPurchase: "200 USDC",
         maximumPurchase: "2000 USDC",
         projectBenefits: [
-            "1) 10% Presale : 50% distributed at tge followed by 25% distribution Monthly for two months",
-            "2) 5% Liquidity : 100% Released at TGE ",
-            "3) 45% Community Reserve and liquidity incentives : 5% at TGE followed by linear vesting for 4 years .",
-            "4) 30% Platform incentives : 5% at TGE followed by linear vesting for 5 years ",
-            "5) 1% Retroactive Airdrop . User onboarding incentive : 100% distribution at TGE."
+            "Astrava is a comprehensive platform offering Web3 creatives the tools and infrastructure to stream their content, engage with their audience, and earn rewards. By providing a diverse range of categories, Astrava enables users to explore and discover content across art, music, gaming, education, and more. The platform prioritizes user experience, interactivity, and community-building to create an immersive environment for creators and viewers alike",
         ],
         projectName: "Astrava",
     },
