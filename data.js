@@ -12,7 +12,7 @@ const ActivePools = [
         access: "Public",
         totalRaised: "0 ZBC",
         chain: 91002,
-        status: "completed",
+        status: "active",
         dateOfCompletion: "23rd Oct, 2022",
         currentBalance: 1000,
         targetBalance: 10000.00,
