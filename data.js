@@ -2,7 +2,7 @@ const ActivePools = [
     {
         id: 1,
         tag: "active",
-        logo: "Logo",
+        logo: "https://i.ibb.co/9nFB5Mq/dyleumresize.png",
         tags: ["1st Phase", "41% complete"],
         projectTitle: "Project 1",
         projectDescription:
