@@ -2,7 +2,7 @@ const ActivePools = [
     {
         id: 1,
         tag: "active",
-        logo: "https://i.ibb.co/9nFB5Mq/dyleumresize.png",
+        logo: "https://res.cloudinary.com/daniel23/image/upload/v1689876698/Blue-norva-logo_rzwgvv.webp",
         tags: ["1st Phase", "41% complete"],
         projectTitle: "Project 1",
         projectDescription:
