@@ -24,6 +24,7 @@ const ActivePools = [
         tokenSymbol: "TST",
         tokenDecimal: "18",
         tokenAddress: "0xB2be4636Af39Ad05138E403173C2bbf694E6767b",
+         contract:"0xE894649758b4E9A1cfb41Cccd2C988aF140e86f3",
         tokenTotalSupply: "100,000,000",
         aboutProject:
           "Menzy is a passive move-to-earn project with additional features such as compete to earn and activity classification based on machine vision. These segments each contain reward mechanisms that grant users MNZ tokens once activated as per the segmentation classes as well as the sub categories. With Menzy’s Move2Earn; you can earn passively by just walking, running and participating in other real world sports and activities. This enables a whole new paradigm for wallets where a wallet can keep increasing total assets over time while still being used for all other utilities: ",
