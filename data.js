@@ -24,7 +24,7 @@ const ActivePools = [
         tokenSymbol: "TST",
         tokenDecimal: "18",
         tokenAddress: "0xB2be4636Af39Ad05138E403173C2bbf694E6767b",
-         contract:"0xE894649758b4E9A1cfb41Cccd2C988aF140e86f3",
+         contract:"0xAE88dAED8D69C50EcEB0d6Ea05d44DAFa2216844",
          minimumPurchase: "1 USDC",
          maximumPurchase: "500 USDC",
         tokenTotalSupply: "100,000,000",
