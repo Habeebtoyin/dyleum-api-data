@@ -22,7 +22,7 @@ const ActivePools = [
         tokenPrice: "1 TST = 166.66 ZBC",
         tokenName: "Test Token",
         tokenSymbol: "TST",
-        tokenDecimal: "18",
+        tokenDecimal: 18,
         tokenAddress: "0xB2be4636Af39Ad05138E403173C2bbf694E6767b",
          contract:"0xAE88dAED8D69C50EcEB0d6Ea05d44DAFa2216844",
          minimumPurchase: "1 USDC",
