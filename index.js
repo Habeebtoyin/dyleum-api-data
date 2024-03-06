@@ -3,8 +3,10 @@ var mongoose = require('mongoose');
 var app = express();
 const bodyparser=require('body-parser')
 app.use(bodyparser.json())
+const cors = require('cors')
 const all_routers=require("./routes");
 
+app.use(cors());
 app.get('/',(req,res)=>{
   res.send('welcome to succoin')
 })
