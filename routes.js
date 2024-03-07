@@ -6,7 +6,11 @@ const poolsController = require("./poolsController")
 
 // router.route('/admin/create').post(create_admin)
 
+// router.route("/pools").get(poolsController.get_all_active_pools)
+// router.route("/pools/:id").get(poolsController.get_pools_by_id)
 router.route("/pools").get(poolsController.get_all_active_pools)
+router.route("/pools/completed").get(poolsController.get_all_completed_pools)
+router.route("/pools/upcoming").get(poolsController.get_all_upcoming_pools)
 router.route("/pools/:id").get(poolsController.get_pools_by_id)
 
 // router.route("/ico/get-all").get(get_all_ico)

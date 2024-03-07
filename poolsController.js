@@ -52,5 +52,6 @@ const get_pools_by_id = asyncHandler(async (req, res) => {
 module.exports = {
     get_all_active_pools,
     get_all_completed_pools,
-    get_pools_by_id
+    get_pools_by_id,
+    get_all_upcoming_pools
 }
